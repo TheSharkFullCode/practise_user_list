@@ -8,7 +8,7 @@
 
 export default createUser;
 function createUser(name,lastname,age,country,holdUsers) {
-     let newId = holdUsers.length + 1
+    let newId = holdUsers.length + 1
     let newUser = {
         first_name: name,
         last_name: lastname,
@@ -22,6 +22,7 @@ function createUser(name,lastname,age,country,holdUsers) {
     holdUsers.unshift(newUser)
     console.log(holdUsers);
     return holdUsers;
+    
 }
 
 
